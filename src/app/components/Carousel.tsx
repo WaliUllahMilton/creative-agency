@@ -39,9 +39,11 @@ const Carousel = ({ autoSlide = true, autoSlideInterval = 3000 }:CarouselType) =
 
   // const prevSlide = () => {
   //   setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  //fdfsd
+  //dsfsd
   // };
 
-  return (
+  return ( 
     <div className="relative w-[350px] md:w-[450px] lg:w-[550px]  max-w-3xl mx-auto lg:mb-8 ">
       <div className="overflow-hidden relative h-[280px] md:h-[400px]">
         {images?.map((image, index) => (
