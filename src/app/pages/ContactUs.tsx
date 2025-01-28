@@ -7,10 +7,10 @@ const ContactUs = () => {
     <div className='bg-[#FBD062] pb-4 '>
       <div className='flex flex-wrap py-20 px-4 md:px-24 gap-6 justify-between'>
         <div>
-            <h3 className='text-base md:text-4xl font-bold'>Let us handle your project, professionally.</h3>
-            <p className='text-base mt-6 lg:w-[500px]'>With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
+            <h3 className='text-xl xxl:text-4xl font-bold'>Let us handle your project, professionally.</h3>
+            <p className='text-base mt-6 lg:w-[400px]'>With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
         </div>
-        <form className='max-w-[700px]'>
+        <form className=' lg:max-w-[400px] xl:max-w-[700px]'>
             <Input placeholder='your email address'/>
             <Input placeholder="your name / company's name"/>
             <textarea className='w-full h-[250px] mb-6 resize-none rounded-lg px-4 py-2 text-gray-400' name="msg" id="msg" placeholder='Your message'/>

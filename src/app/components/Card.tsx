@@ -10,11 +10,11 @@ type CardProps = {
 }
 const Card = ({src,alt,title,disc,role,feedback=false}:CardProps) => {
   return (
-    <div className={`flex flex-col items-center gap-4 p-4 pb-6 border-[1px] border-gray-300 max-w-[280px] rounded-lg${feedback ? "" : " hover:scale-110 cursor-pointer transition-[300] ease-linear hover:shadow-xl"}`}>
+    <div className={`flex flex-col items-center gap-4 p-4 pb-6 border-[1px] border-gray-300 max-w-[280px] rounded-lg  overflow-auto ${feedback ? "max-h-[230px] min-h-[230px]" : " hover:scale-110 cursor-pointer transition-[300] ease-linear hover:shadow-xl"}`}>
         <div className={`flex ${feedback ? "gap-4 items-center":"flex-col items-center "}`}>
           <Image src={src} alt={alt} width={70} height={70}/>
           <div>
-            <h2 className='text-2xl font-bold'>{title}</h2>
+            <h2 className={`${feedback ? "text-xl" : "text-2xl"} font-bold`}>{title}</h2>
             {role&& <p>{role}</p>}
           </div>
         </div>

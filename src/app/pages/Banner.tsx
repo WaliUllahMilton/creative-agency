@@ -14,7 +14,7 @@ const Banner = () => {
                 <Btn content='Hire us'/>
             </div>
         </div>
-        <div className='max-w-[207px] max-h-[140px] sm:max-w-[300px] sm:max-h-[240px] lg:max-h-[400px] lg:max-w-[440px] xl:max-w-[700px] xl:max-h-[740px] xl:mr-20 '>
+        <div className='max-w-[207px] mt-4 md:mt-0 max-h-[140px] sm:max-w-[300px] sm:max-h-[240px] lg:max-h-[400px] lg:max-w-[440px] xl:max-w-[700px] xl:max-h-[740px]  '>
             <Image src={BannerImage} alt='Banner image'/>
         </div>
     </main>

@@ -21,7 +21,7 @@ const Feedback = () => {
             <Card src={FImg3} alt='customer one' title='Bria Malone'
             role='CEO, Manpol'
             feedback={true}
-            disc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat'
+            disc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat'
             />
         </div>
     </div>
