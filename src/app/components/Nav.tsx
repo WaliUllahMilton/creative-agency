@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import NavLink from './NavLink'
 import { MdOutlineMenu,MdClose } from "react-icons/md";
-
 import NavItem from './NavItem'
 import Logo from './Logo'
 import Btn from './Btn'
@@ -16,8 +15,8 @@ const Nav = () => {
             </NavLink>
             <NavLink className={`transition-[300] ease-in-out duration-1000 ${toggleBtn ? "flex flex-col absolute top-0 left-0 px-24 py-4 bg-[#FBD062]  z-40 w-[100vw] h-[100vh] overflow-hidden " : "hidden"} lg:flex items-center gap-6`}>
                 <NavItem href='#home' content="Home"/>
-                <NavItem href='#OurPortfolio' content="OurPortfolio"/>
-                <NavItem href='#OurTeam' content="OurTeam"/>
+                <NavItem href='#services' content="Services"/>
+                <NavItem href='#our-works' content="OurWorks"/>
                 <NavItem href='#ContactUs' content="ContactUs"/>
                 <Btn href='/login' content='Login'/>
             </NavLink>

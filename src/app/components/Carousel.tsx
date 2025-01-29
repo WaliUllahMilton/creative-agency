@@ -4,7 +4,7 @@ import CarImg1 from '@/app/assets/carousel-1-G1OKsn4W.png'
 import React, { useState, useEffect } from 'react';
 import carImg2 from '@/app/assets/carousel-2-BIJEuKZI.png'
 import carImg3 from '@/app/assets/carousel-4-2nNdLCNC.png'
-import { FaArrowLeft,FaArrowRight } from "react-icons/fa";
+// import { FaArrowLeft,FaArrowRight } from "react-icons/fa";
 
 type CarouselType = {
     autoSlide ?: boolean,
@@ -32,7 +32,7 @@ const Carousel = ({ autoSlide = true, autoSlideInterval = 3000 }:CarouselType) =
       return () => clearInterval(slideInterval);
     }
   }, [autoSlide, autoSlideInterval, images.length]);
-
+// console.log(currentIndex)
   // const nextSlide = () => {
   //   setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   // };

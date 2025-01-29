@@ -5,7 +5,7 @@ import FImg2 from '@/app/assets/customer-2.png'
 import FImg3 from '@/app/assets/customer-3.png'
 const Feedback = () => {
   return (
-    <div className='flex flex-col justify-center items-center my-20'>
+    <div id='OurTeam' className='flex flex-col justify-center items-center my-20'>
         <h2 className='text-black text-2xl md:text-5xl font-extrabold'>Clients <span className='text-[#7AB259]'>Feedback</span></h2>
         <div className='flex flex-wrap items-center justify-center gap-6 mt-10 md:gap-6'>
             <Card src={FImg1} alt='customer one' title='Nash Patrik'
