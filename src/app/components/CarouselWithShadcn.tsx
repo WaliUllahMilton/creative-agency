@@ -36,19 +36,15 @@ type CarouselType = {
             return () => clearInterval(slideInterval);
           }
         }, [autoSlide, autoSlideInterval, images.length]);
-        // console.log(currentIndex)
+        console.log(currentIndex)
     return (
-        <div>
-            <Carousel>
-                <CarouselContent className="text-white max-w-[550px]">
+        <div className="mt-20">
+            <Carousel className="relative w-[350px] md:w-[450px] lg:w-[550px]  max-w-3xl mx-auto lg:mb-8 ">
+                <CarouselContent className="text-whiteoverflow-hidden relative h-[280px] md:h-[400px]">
                     {
-                        images.map((image,index)=>(
-                            <CarouselItem key={index}  className={` inset-0 transition-transform transform rounded-lg  overflow-hidden ${
-                                index === currentIndex ? 'translate-x-0' : 'translate-x-full'
-                              }`} >
-                                {currentIndex == index && <Image src={image.src} alt={image.alt} />}
-                            </CarouselItem>
-                        ))
+                       <CarouselItem>
+                            <Image src={images[currentIndex].src} alt={images[currentIndex].alt} objectFit='cover'/>
+                       </CarouselItem>
                     }
                 </CarouselContent>
                 <div className="absolute -bottom-6 md:bottom-4 lg:-bottom-14 left-0 right-0 flex justify-center mb-4">

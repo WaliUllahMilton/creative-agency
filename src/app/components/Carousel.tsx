@@ -32,7 +32,7 @@ const Carousel = ({ autoSlide = true, autoSlideInterval = 3000 }:CarouselType) =
       return () => clearInterval(slideInterval);
     }
   }, [autoSlide, autoSlideInterval, images.length]);
-
+// console.log(currentIndex)
   // const nextSlide = () => {
   //   setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   // };
