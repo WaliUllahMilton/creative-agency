@@ -4,7 +4,7 @@ import Btn from '../components/Btn'
 
 const ContactUs = () => {
   return (
-    <div className='bg-[#FBD062] pb-4 '>
+    <div id='ContactUs' className='bg-[#FBD062] pb-4 '>
       <div className='flex flex-wrap py-20 px-4 md:px-24 gap-6 justify-between'>
         <div>
             <h3 className='text-xl xxl:text-4xl font-bold'>Let us handle your project, professionally.</h3>
