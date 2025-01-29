@@ -39,8 +39,7 @@ const Carousel = ({ autoSlide = true, autoSlideInterval = 3000 }:CarouselType) =
 
   // const prevSlide = () => {
   //   setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  //fdfsd
-  //dsfsd
+  //feat
   // };
 
   return ( 
